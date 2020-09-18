@@ -1,0 +1,22 @@
+Met JavaScript is een Lightbox te maken.
+Bronbestand: https://github.com/Theo-denBlanken/materiaal-lightbox
+
+We maken het samen tijdens de lessen op 24 februari.
+Inleveren
+Resultaat online en op GitHub
+Link live versie in README.md en de GitHublink hier inleveren.
+
+
+
+Instructie filmpjes
+
+0 Resultaat https://www.youtube.com/watch?v=rN075PjgZnA
+
+1 Opzet https://youtu.be/qdfzqeFIKio
+
+2. markup https://youtu.be/F9nDyT_zKHU
+
+3. array maken https://youtu.be/Wf7cYN3vnPw
+
+4. layout overige elementen: https://youtu.be/B4sleW1vKHo
+
