@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>10 tips voor Amsterdam</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta names="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Theo den Blanken, Jill Paat, Leroy Andrade">
     <link rel="stylesheet" href="css/lightbox.css">
 </head>
@@ -12,6 +12,9 @@
     <h1>VERANTWOORD VERTOEVEN IN AMSTERDAM: 10 TIPS DIE JE NIET MAG OVERSLAAN!</h1>
     <h4>Geef mij maar Amsterdaaaam! Onze hoofdstad… of je er nu woont, er regelmatig komt of er nog nooit bent geweest: het mooie Mokum zit barstensvol leuke en inspirerende plekken. Misschien zelfs zóveel dat je door de bomen het bos niet meer ziet.  Luxeprobleem, anyone? Een goede reden om onze favoriete to-do’s eens voor je op een rijtje te zetten. En weet je wat het toffe is? Onderstaande tips dragen allemaal op hun eigen manier een steentje bij aan een betere wereld. Van eerlijke, lokale producten tot tweedehands shoppen en van eten zonder waste tot het bijwonen van inspirerende lezingen. Dit zijn onze 10 tips om verantwoord te vertoeven in Amsterdam.</h4>
     <p>door Jill Paat</p>
+<!--beetje BEM-->
+    <p class="info">Druk CTRL / CMD + <span class="__text-Groot">F5</span></p>
+<!--beetje BEM-->
 </header>
 <main>
     <section>
@@ -25,7 +28,10 @@
         <figure class="informatie">
             <img src="img/gaFietsen.jpg" alt="Ga toch fietsen">
             <h3>Ga toch fietsen!</h3>
-            <p>
+
+<!--BEM-->
+            <p class="informatie--tekstGroen">
+<!--BEM-->
                 First things first. Wil je zoveel mogelijk van de stad meekrijgen? Dan is het huren van een fiets een heel goed idee! Op die manier ga je veel sneller van A naar B en kun je onderweg nog veel meer van Amsterdam zien. Er zijn ontzettend veel fietsverhuurpunten in de stad.
                 Een makkelijke en voordelige optie is de <a href="https://www.ns.nl/deur-tot-deur/ov-fiets">ov-fiets</a>. Deze kun je gewoon ophalen op het station.
             </p>
@@ -38,10 +44,11 @@
             <p>(biologische) Noordermarkt</p>
         </figure>
         <figure class="informatie">
-            <h3>(biologische) Noordermarkt</h3>
+            <h3 class="">(biologische) Noordermarkt</h3>
             <img src="img/noordermarkt.png" alt="(biologische) Noordermarkt">
-            <p>Als je toch van het station naar de stad fietst, ga dan eens langs de Noordermarkt in de Jordaan! Op maandag en zaterdag van 09:00 tot 16:00 uur kun je er de mooiste lokale producten krijgen.
-                Zeker de zaterdag is een aanrader, want dan staat de markt geheel in het teken van
+<!--BEM-->
+            <p class="informatie--tekstGeel">Als je toch van het station naar de stad fietst, ga dan eens langs de Noordermarkt in de Jordaan! Op maandag en zaterdag van 09:00 tot 16:00 uur kun je er de mooiste lokale producten krijgen.
+<!--BEM-->              Zeker de zaterdag is een aanrader, want dan staat de markt geheel in het teken van
                 <a href="http://biologischenoordermarkt.nl/">biologische producten.</a></p>
         </figure>
     </section>
@@ -54,7 +61,7 @@
         <figure class="informatie">
             <h3>Fashion for Good Museum</h3>
             <img src="img/good.jpg" alt="Fashion for Good Museum">
-            <p>
+            <p class="--margin">
                 Ken je <a href="https://fashionforgood.com/">Fashion For Good</a> al? Dit is een technologisch-interactief museum over duurzame en circulaire mode-innovatie. Onwijs interessant! Want niet alleen maak je kennis met de verhalen achter de kledingstukken die ze tentoonstellen,  maar je leert ook hoe je zelf actief bij kunt dragen om de mode-industrie beter te maken.
                 Fashion For Good zit aan de Rokin midden in het centrum en is daardoor super centraal!
             </p>
@@ -179,9 +186,10 @@
         <span>Bron: <a href="https://www.instock.nl/verantwoord-vertoeven-in-amsterdam-10-tips-die-je-niet-mag-overslaan/">instock</a></span>
         <span class="validatie">
             <a href="http://validator.w3.org/check?uri=referer" target="_blank">
-                <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
-            <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
-                <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valide CSS!" />
             </a>
         </span>
     </footer>

@@ -1,0 +1,30 @@
+//klik op de thumb  en u ziet drie verschillende outputs
+//handig is dat de kleur, op 1 plek aanpassen, globaal wordt toegepast. 
+
+$kleurGroen: green
+$kleurGeel: yellow
+$padding1: 1em
+$padding2: 2em
+
+
+.thumb
+ &:hover
+  padding: $padding1
+ &__text
+  color: red
+
+ &:nth-child(2)
+  padding-top: 100px
+
+.informatie
+ &--tekstGroen
+  color: $kleurGroen
+ &--tekstGeel
+  color: $kleurGeel
+ &--margin
+  margin: $padding1
+
+.__text-Groot
+ font-size: $padding2
+
+  
